@@ -5,8 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-open": "ng serve --open",  "//":"also opens browser to http://localhost:4200",
     "build": "ng build",
     "test": "ng test",
+    "test-coverage-report": "ng test --single-run --code-coverage",  "//": "outputs a karma unit test coverage report to the coverage directory",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
